@@ -1,0 +1,176 @@
+.body
+{
+    font-family:"Montserrat";
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: "Montserrat-Bold";
+}
+h2
+{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3
+{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+p
+{
+  color: #8f8f8f;
+  padding: 0 5% 0 5%;
+}
+        /* title section */
+.title
+{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.navbar
+{
+  padding-left: 0;
+  padding-bottom:4.5rem;
+}
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+.t1
+{
+font-family:"Montserrat";
+font-size:3.8rem;
+line-height: 1.5;
+}
+.u1
+{
+width: 60%;
+transform: rotate(22deg);
+position: absolute;
+right: 30%;
+}
+
+.navbar-brand
+{
+  font-family:"Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px 0 18px;
+}
+.Download
+{
+  margin: 5% 3% 5% 0;
+}
+     /* features section */
+
+.f1
+{
+  text-align: center;
+}
+.features
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.fas
+{
+  padding-bottom: 5%;
+  color: #ef8172;
+}
+.fas:hover
+{
+  color:#ff4c68;
+}
+
+             /* testimonial section */
+.testimonials
+{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item
+{
+ padding: 7% 15%;
+}
+
+.u8
+{
+  border-radius: 100%;  /*it makes the image circular */
+  width: 15%;
+  margin: 5% 5% 0 0;
+}
+          /* press section */
+.u9
+{
+  padding: 1.5%;
+  width: 15%;
+  margin-bottom: 50px;
+}
+.press
+{
+  text-align: center;
+  background-color: #ef8172;
+  margin-bottom: 5%;
+}
+
+        /* pricing section */
+#pricing
+{
+  padding: 100px;
+}        
+.p1
+{
+  padding: 3% 2%;
+}
+.p2
+{
+  margin-top:14.5%;
+}
+.p3
+{
+  padding: 0 0 0 1%;
+}
+@media (max-width:1028px)
+{
+  .title
+  {
+    text-align: center;
+  }
+  .u1
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* bottom section of page */
+#cta
+{
+   background-color: #ff4c68;
+   text-align: center;
+   color: white;
+}
+.last
+{
+  font-family:"Montserrat";
+  /* padding: 7% 32% 0 32%; */
+  padding: 7% 25% 0 25%;
+  font-size:3rem;
+}
+#footer
+{
+  text-align: center;
+  padding: 7% 7%;
+}
+.f5
+{
+    padding: 0 1% 2% 1%;
+    color: black;
+}
